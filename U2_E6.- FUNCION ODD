@@ -1,0 +1,39 @@
+Prelude> let non x = if ( even x ) then  show( False )  else show( True )
+
+Prelude> non 5
+
+"True"
+
+Prelude> non 10
+
+"False"
+
+Prelude> non 20
+
+"False"
+
+Prelude> non 7
+
+"True"
+
+Prelude> non 3
+
+"True"
+
+Prelude> non 5
+
+"True"
+
+Prelude> non 50
+
+"False"
+
+Prelude> non 100
+
+"False"
+
+Prelude> non 27
+
+"True"
+
+Prelude>
