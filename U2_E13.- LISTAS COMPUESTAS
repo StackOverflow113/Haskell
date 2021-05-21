@@ -1,0 +1,35 @@
+GHCi, version 8.6.5: http://www.haskell.org/ghc/  :? for help
+
+Prelude> let lista = ["Este numero es par:" ++ " " ++ show( x ) | x<-[1..50], x `mod` 2 == 0]
+
+Prelude> lista
+
+["Este numero es par: 2","Este numero es par: 4","Este numero es par: 6","Este numero es par: 8","Este numero es par: 10","Este numero es par: 12","Este numero es par: 14","Este numero es par: 16","Este numero es par: 18","Este numero es par: 20","Este numero es par: 22","Este numero es par: 24","Este numero es par: 26","Este numero es par: 28","Este numero es par: 30","Este numero es par: 32","Este numero es par: 34","Este numero es par: 36","Este numero es par: 38","Este numero es par: 40","Este numero es par: 42","Este numero es par: 44","Este numero es par: 46","Este numero es par: 48","Este numero es par: 50"]
+
+Prelude> let lista2 = [20..30]
+
+Prelude> let lista = [ x | x<-lista2, x>0 && x<30]
+
+Prelude> let buscar x ys = if notElem x lista then show("no se encontro el numero") else show(x)
+
+Prelude> buscar 20 lista
+
+"20"
+
+Prelude> buscar 29 lista
+
+"29"
+
+Prelude> buscar 10 lista
+
+"\"no se encontro el numero\""
+
+Prelude> let non x = if ( even x ) then show( x ) ++ (" es par ") else ("") ++ show( x ) ++ (" es non ")
+
+Prelude> let lista = [ non x | x<-lista2, x>0 && x<30]
+
+Prelude> lista
+
+["20 es par ","21 es non ","22 es par ","23 es non ","24 es par ","25 es non ","26 es par ","27 es non ","28 es par ","29 es non "]
+
+Prelude>
