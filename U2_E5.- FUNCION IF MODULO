@@ -1,0 +1,23 @@
+Prelude> let modulo x y = if ( x `mod` y) ==0  then show(x) ++ " Es modulo de " ++ show(y) else show(x) ++ " No es modulo de " ++ show(y)
+
+Prelude> modulo 10 5
+
+"10 Es modulo de 5"
+
+Prelude> modulo 10 6
+
+"10 No es modulo de 6"
+
+Prelude> modulo 9 3
+
+"9 Es modulo de 3"
+
+Prelude> modulo 10 2
+
+"10 Es modulo de 2"
+
+Prelude> modulo 7 3
+
+"7 No es modulo de 3"
+
+Prelude>
