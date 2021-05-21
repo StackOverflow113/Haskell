@@ -112,31 +112,3 @@ buscar5 = [x | x<-lista16, x `mod` 10    == 0]
 buscar6 :: [Integer]
 buscar6 = [x | x<-lista16, x>=10 && x<=20]
 
---EXAMEN
-lista = [x | x<-[1..100], x `mod` 2== 0]
-lista2 = [x| x<-[1..100],x `mod` 2== 1]
-
-suma = [" El numero "++ show( x ) ++ " +1 "++ "es igual a: " ++ show(x+1)| x<-lista]
-suma1=[" El numero "++ show( x ) ++ " +2 "++ "es igual a: " ++ show( x+2 )| x<-lista2]
-
-final = [suma] ++ [suma1]
-
-RELOJ
-let hora =[1..24]
-let lista = [ x | x<-[1..24] ]
-let buscar x ys = if notElem x lista then show("no se encontro el numero") else show(x)
-
---3
-let lista = [10,20,30,40,51]
-let lista2 = [15,30,32,45,51,100]
-let comprobar = [ x | x<-lista, x `elem` lista2]
---4
-head last 
-let inicio = [10..50] 
-superior x = x
-inferior y = y
-let lista = [ x | x<-[inicio]]
---2
-numero x = x
-let lista = [ numero x | x<-[1..24], x>=1 && x<=24 || x == 10]
-let lista= [ x  | x<-[inicio]]
