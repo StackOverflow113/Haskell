@@ -1,0 +1,33 @@
+GHCi, version 8.6.5: http://www.haskell.org/ghc/  :? for help
+
+Prelude> let lista = [98,34,26,32,18]
+
+Prelude> let mayor = maximum lista
+
+Prelude> let menor = minimum lista
+
+Prelude> mayor
+
+98
+
+Prelude> menor
+
+18
+
+Prelude> let lista2 = [98,18]
+
+Prelude> lista2
+
+[98,18]
+
+Prelude> non x = if ( even x ) then (" El numero ") ++ show( x ) ++ (" es par ") else (" El numero ") ++ show( x ) ++ (" es non ")
+
+Prelude> non 98
+
+" El numero 98 es par "
+
+Prelude> non 18
+
+" El numero 18 es par "
+
+Prelude>
