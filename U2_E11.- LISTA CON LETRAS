@@ -1,0 +1,41 @@
+GHCi, version 8.6.5: http://www.haskell.org/ghc/  :? for help
+
+Prelude> let lista = ['E'..'Z']
+
+Prelude> lista
+
+"EFGHIJKLMNOPQRSTUVWXYZ"
+
+Prelude> length lista
+
+22
+
+Prelude> let restar = (22-7)
+
+Prelude> restar
+
+15
+
+Prelude> let buscar = lista !!restar
+
+Prelude> buscar
+
+'T'
+
+Prelude> let lista2 = reverse lista
+
+Prelude> lista2
+
+"ZYXWVUTSRQPONMLKJIHGFE"
+
+Prelude> take 10 lista2
+
+"ZYXWVUTSRQ"
+
+Prelude> let lista3 = ['E'..'N'] ++ ['Z','Y','X','W','V','U','T','S','R','Q']
+
+Prelude> lista3
+
+"EFGHIJKLMNZYXWVUTSRQ"
+
+Prelude>
