@@ -1,0 +1,29 @@
+Prelude> let suma a b c = if a < c then b + c else a + c
+
+Prelude> suma 15 16 20
+
+36
+
+Prelude> suma 27 16 20
+
+47
+
+Prelude> let non x = if ( even x ) then show( x ) ++ (" Y es par ") else ("") ++ show( x ) ++ (" es non ")
+
+Prelude> let suma a b c = if a < c then show (" La suma de los numeros ") ++ show( b ) ++ ( " " ) ++ show( c ) ++ (" es ") ++ non ( b + c )  else show (" La suma de los numeros ") ++ show(a) ++ ( " " ) ++ show(c) ++ (" es ") ++ non ( a + c )
+
+Prelude> suma 15 16 20
+
+"\" La suma de los numeros \"16 20 es 36 Y es par "
+
+Prelude> suma 15 19 20
+
+"\" La suma de los numeros \"19 20 es 39 es non "
+
+Prelude> suma 27 16 20
+
+"\" La suma de los numeros \"27 20 es 47 es non "
+
+Prelude>
+
+Prelude>
