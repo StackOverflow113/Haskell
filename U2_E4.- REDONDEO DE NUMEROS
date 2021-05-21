@@ -1,0 +1,39 @@
+Prelude> let abajo x = floor x
+
+Prelude> abajo 5.6
+
+5
+
+Prelude> abajo 5.4
+
+5
+
+Prelude> abajo 5.9
+
+5
+
+Prelude> let arriba x = ceiling x
+
+Prelude> arriba 5.6
+
+6
+
+Prelude> arriba 5.4
+
+6
+
+Prelude> round 5.6
+
+6
+
+Prelude> let redondeo x = round x
+
+Prelude> redondeo 5.6
+
+6
+
+Prelude> redondeo 5.4
+
+5
+
+Prelude>
