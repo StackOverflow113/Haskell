@@ -1,0 +1,19 @@
+let potencia a b = a ^b
+
+Prelude> potencia 2 4
+
+16
+
+potencia 3.1 3
+
+29.791000000000004
+
+Prelude> potencia 2 2
+
+4
+
+Prelude> potencia 5 10
+
+9765625
+
+Prelude>
