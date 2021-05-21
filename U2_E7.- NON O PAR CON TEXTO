@@ -1,0 +1,31 @@
+Prelude> let non x = if ( even x ) then (" El numero ") ++ show( x ) ++ (" es par ") else (" El numero ") ++ show( x ) ++ (" es non ")
+
+Prelude> non 10
+
+" El numero 10 es par "
+
+Prelude> non 5
+
+" El numero 5 es non "
+
+Prelude> non 27
+
+" El numero 27 es non "
+
+Prelude> non 100
+
+" El numero 100 es par "
+
+Prelude> non 7
+
+" El numero 7 es non "
+
+Prelude> non 25
+
+" El numero 25 es non "
+
+Prelude> non 50
+
+" El numero 50 es par "
+
+Prelude>
