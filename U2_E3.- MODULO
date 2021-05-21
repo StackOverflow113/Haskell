@@ -1,0 +1,19 @@
+Prelude> 5 `mod` 2
+
+1
+
+Prelude> let operacion a b = a `mod` b
+
+Prelude> operacion 10 2
+
+0
+
+Prelude> operacion 9 3
+
+0
+
+Prelude> operacion 10 2
+
+0
+
+Prelude> ...
